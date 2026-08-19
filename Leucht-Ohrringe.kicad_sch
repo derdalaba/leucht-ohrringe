@@ -3943,6 +3943,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 116.84) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251c0b7b-1ece-4ad5-8d5b-2ff994db4b7a")
+	)
+	(wire
+		(pts
 			(xy 113.03 63.5) (xy 113.03 67.31)
 		)
 		(stroke
@@ -6203,7 +6213,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 167.64 115.57 180)
+		(at 167.64 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6214,7 +6224,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a79df08-a234-4fa5-849f-509b61721948")
 		(property "Reference" "#PWR016"
-			(at 167.64 111.76 0)
+			(at 167.64 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6225,7 +6235,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 167.64 120.65 0)
+			(at 167.64 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6235,7 +6245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 115.57 0)
+			(at 167.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 115.57 0)
+			(at 167.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +6267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 167.64 115.57 0)
+			(at 167.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
