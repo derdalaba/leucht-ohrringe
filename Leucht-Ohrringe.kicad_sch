@@ -3202,6 +3202,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:ICM_42670-L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ICM_42670-L_1_1"
+				(rectangle
+					(start -1.27 29.21)
+					(end 15.24 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 248 168 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -3.81 26.67 0)
+					(length 2.54)
+					(name "AP_AD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 24.13 0)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 21.59 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 16.51 0)
+					(length 2.54)
+					(name "FSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 13.97 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 11.43 0)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 8.89 0)
+					(length 2.54)
+					(name "AP_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name "AP_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "AP_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom:TX4204"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3890,10 +4145,22 @@
 		(uuid "a3d7fb3e-8092-4367-a7ba-6f93be2a5ddb")
 	)
 	(junction
+		(at 129.54 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c399e00d-7bcb-4979-a53d-0dcc66edc00e")
+	)
+	(junction
 		(at 87.63 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd027e7b-8eee-49e5-a70c-30e4933ec28a")
+	)
+	(junction
+		(at 124.46 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f546d026-7fbb-476c-aa45-9f5468243bb7")
 	)
 	(no_connect
 		(at 177.8 115.57)
@@ -3902,6 +4169,10 @@
 	(no_connect
 		(at 125.73 80.01)
 		(uuid "45d1b6bc-f20a-401d-a1e6-2a191cbfd93e")
+	)
+	(no_connect
+		(at 104.14 27.94)
+		(uuid "6f16f6f6-3e2d-4f88-abb3-3a6cfafa7297")
 	)
 	(no_connect
 		(at 213.36 67.31)
@@ -3930,6 +4201,56 @@
 			(type default)
 		)
 		(uuid "05fd8820-80ef-4d31-bbfb-d8c067c1c55a")
+	)
+	(wire
+		(pts
+			(xy 139.7 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09113796-a16e-4364-b085-bdff1b2e0c35")
+	)
+	(wire
+		(pts
+			(xy 129.54 40.64) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3b0b9c-22ce-472b-8647-79d19ac1c3e3")
+	)
+	(wire
+		(pts
+			(xy 140.97 74.93) (xy 144.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a51311f-2536-4a17-ada2-6da5eb97029e")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d086f18-11d0-4f08-b4a0-a6bf64df586e")
+	)
+	(wire
+		(pts
+			(xy 135.89 20.32) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7aa411-1aea-486b-9057-b6974b29fd3c")
 	)
 	(wire
 		(pts
@@ -3973,6 +4294,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 66.04) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3a6691-859e-43e3-bf6c-0f15dc163322")
+	)
+	(wire
+		(pts
 			(xy 195.58 57.15) (xy 195.58 54.61)
 		)
 		(stroke
@@ -4013,6 +4344,36 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 30.48) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515432fa-8635-4ab5-ab5b-03a156aba90f")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531daff9-4229-4548-bab7-46bee4032cdc")
+	)
+	(wire
+		(pts
+			(xy 139.7 30.48) (xy 139.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5329918b-3fe7-4d4e-a74e-91080e08521d")
+	)
+	(wire
+		(pts
 			(xy 125.73 74.93) (xy 132.08 74.93)
 		)
 		(stroke
@@ -4030,6 +4391,16 @@
 			(type default)
 		)
 		(uuid "65894155-ff60-4798-a289-130dbaefc733")
+	)
+	(wire
+		(pts
+			(xy 134.62 40.64) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68831433-17a2-4048-a7d3-f920cc75e7bc")
 	)
 	(wire
 		(pts
@@ -4070,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "7198366b-c948-4f26-b550-302c2d009ca2")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761547a5-167d-417d-8602-648a9457de3c")
 	)
 	(wire
 		(pts
@@ -4133,6 +4514,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e5a59f-faf7-42ec-8ba6-60469e72448e")
+	)
+	(wire
+		(pts
 			(xy 105.41 80.01) (xy 73.66 80.01)
 		)
 		(stroke
@@ -4140,6 +4531,16 @@
 			(type default)
 		)
 		(uuid "a43ede8e-cf9a-4b7b-bdc3-3589a5f3dd3a")
+	)
+	(wire
+		(pts
+			(xy 139.7 30.48) (xy 140.97 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c03103-7013-4e1a-9cde-45e2b3bec804")
 	)
 	(wire
 		(pts
@@ -4163,6 +4564,36 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 20.32) (xy 135.89 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b651fd66-7f54-442c-936b-2e51efe8d3e2")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba635e91-67fe-423b-80ca-863a0d0b4e79")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc66d9fc-d1b0-405c-af02-796b8d47f5bd")
+	)
+	(wire
+		(pts
 			(xy 193.04 62.23) (xy 203.2 62.23)
 		)
 		(stroke
@@ -4180,6 +4611,16 @@
 			(type default)
 		)
 		(uuid "bfd5f686-af7f-4735-8c79-d1a6cdc384da")
+	)
+	(wire
+		(pts
+			(xy 132.08 17.78) (xy 132.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e2b4d6-44e0-4304-9cca-edf8e1847904")
 	)
 	(wire
 		(pts
@@ -4223,6 +4664,36 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fb9f82-7e81-40c0-8cab-d01bee470d17")
+	)
+	(wire
+		(pts
+			(xy 104.14 40.64) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53b7b29-a480-484f-94ea-03386d4f9875")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7836f61-7f3b-4150-acdd-480ee8b241c7")
+	)
+	(wire
+		(pts
 			(xy 73.66 80.01) (xy 73.66 87.63)
 		)
 		(stroke
@@ -4243,6 +4714,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 17.78) (xy 132.08 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5b2b1e-3672-4d4f-93ef-b1fb9aa05876")
+	)
+	(wire
+		(pts
 			(xy 71.12 82.55) (xy 87.63 82.55)
 		)
 		(stroke
@@ -4250,6 +4731,16 @@
 			(type default)
 		)
 		(uuid "f2516f48-b4c2-4d67-ad03-d87f67d78574")
+	)
+	(wire
+		(pts
+			(xy 138.43 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b100ee-6fc8-4678-9e5e-701a1040ddd3")
 	)
 	(wire
 		(pts
@@ -5588,6 +6079,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 124.46 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6062206e-307a-47bf-8802-8277e8b70b5a")
+		(property "Reference" "#PWR078"
+			(at 124.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 124.46 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "287441d5-6fc5-402c-a5ae-49dc3f895d7b")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 194.31 90.17 90)
 		(unit 1)
@@ -5662,6 +6231,85 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 104.14 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f4a452d-ef40-41ee-ab21-c0853a71b85f")
+		(property "Reference" "#PWR080"
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 100.33 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 104.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6268fff2-fc91-4f9c-afe5-bb1194fc3117")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5777,6 +6425,85 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 25.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71fd8de0-13a8-4a26-8376-c65634b5e1fc")
+		(property "Reference" "#PWR077"
+			(at 97.79 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d338e30-5987-4ad0-bb0e-c6c328ec5546")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6134,6 +6861,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 104.14 22.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85a1692b-be2b-45cf-815a-7ca423ac72ba")
+		(property "Reference" "#PWR075"
+			(at 107.95 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 100.33 22.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 104.14 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0929d240-144c-4409-96ef-7ca73cce91d3")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 95.25 0)
 		(unit 1)
@@ -6213,6 +7019,84 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
+		(at 129.54 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "897218c0-5a90-4bb8-800b-bb98c39632ac")
+		(property "Reference" "#PWR079"
+			(at 129.54 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 129.54 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23f57318-fa6c-493e-af84-8b885ab9f640")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
 		(at 167.64 116.84 180)
 		(unit 1)
 		(body_style 1)
@@ -6284,6 +7168,85 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 104.14 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2721bf-7ba1-4341-ae43-401cf9187af2")
+		(property "Reference" "#PWR076"
+			(at 107.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 100.33 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 104.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80d8b671-83c2-4843-ae11-fbf45c676a8b")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6534,6 +7497,111 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:ICM_42670-L")
+		(at 107.95 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0fd3737-5082-468c-86df-486758039976")
+		(property "Reference" "U3"
+			(at 124.46 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 107.95 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm"
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "aba97722-84ab-4089-b57e-036ac9053df7")
+		)
+		(pin "12"
+			(uuid "fdd04fa0-4fb4-44ea-a825-7bf5f290111f")
+		)
+		(pin "6"
+			(uuid "9d086fc5-bbed-496e-b0ef-3c21fe6ac609")
+		)
+		(pin "14"
+			(uuid "7c9cd4d0-d3e9-4ebf-b7a3-aebfe37a605f")
+		)
+		(pin "8"
+			(uuid "911b7709-0079-4820-84d7-b639974931d4")
+		)
+		(pin "1"
+			(uuid "2f86b053-d5a4-4d62-90f4-2db3994c3c40")
+		)
+		(pin "4"
+			(uuid "8065643a-e6b6-4b4b-9ea4-2dd54ab4879b")
+		)
+		(pin "7"
+			(uuid "131b981a-a89e-41dc-97fc-578699288201")
+		)
+		(pin "9"
+			(uuid "7619adea-66c7-4a1a-ac76-618415e7f0c2")
+		)
+		(pin "13"
+			(uuid "dbd86343-1ae0-4519-bd8e-a3c48aebec1a")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 146.05 0)
 		(unit 1)
@@ -6762,6 +7830,88 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace946b1-5cd5-4ac6-8866-1a0673863d4c")
+		(property "Reference" "R4"
+			(at 132.08 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 132.08 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 127.762 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63083683-b7c8-4e0a-bde3-831e8ad56750")
+		)
+		(pin "2"
+			(uuid "3b06798c-2af8-44d5-8bb6-a866bc77b1d5")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7910,6 +9060,88 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec1c22c3-64d3-4053-9a75-deca2a967589")
+		(property "Reference" "R3"
+			(at 127 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 127 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 122.682 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d15c9871-bfe1-4c53-b0cc-89fc843dac2f")
+		)
+		(pin "2"
+			(uuid "e25a197e-8fed-4cae-ae2c-1551e73cda1f")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "R3")
 					(unit 1)
 				)
 			)
