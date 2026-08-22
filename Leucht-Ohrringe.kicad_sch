@@ -4406,16 +4406,28 @@
 		(uuid "314fa225-6d8a-4a71-b941-60f3efaba657")
 	)
 	(junction
+		(at 88.9 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4248c558-44e2-4e53-bd40-50caa70fb8c9")
+	)
+	(junction
+		(at 148.59 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c118491-0db8-44a1-a8b6-a00e0607470b")
+	)
+	(junction
 		(at 73.66 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7567e5ac-f7c9-487c-bf6b-6505c79c4d12")
 	)
 	(junction
-		(at 124.46 95.25)
+		(at 72.39 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d4e1afb-7364-4065-8fa8-9b875f55f56f")
+		(uuid "92090d93-c096-4ec9-ad6d-326d2f98fcea")
 	)
 	(junction
 		(at 198.12 90.17)
@@ -4434,6 +4446,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd027e7b-8eee-49e5-a70c-30e4933ec28a")
+	)
+	(junction
+		(at 82.55 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d77ce180-244c-4627-ac13-b5418a29be47")
 	)
 	(junction
 		(at 124.46 38.1)
@@ -4456,16 +4474,6 @@
 	(no_connect
 		(at 71.12 77.47)
 		(uuid "f71e737b-0b77-4e2c-a377-ef36301b6f04")
-	)
-	(wire
-		(pts
-			(xy 130.81 95.25) (xy 124.46 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0116d49c-fca5-4973-8e97-d023dca81bca")
 	)
 	(wire
 		(pts
@@ -4589,16 +4597,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 85.09) (xy 130.81 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8d040b-82cb-4c51-bd35-28c407c97417")
-	)
-	(wire
-		(pts
 			(xy 195.58 57.15) (xy 195.58 54.61)
 		)
 		(stroke
@@ -4669,6 +4667,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 20.32) (xy 148.59 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cf09ad-13a5-4f58-8007-87507144130b")
+	)
+	(wire
+		(pts
 			(xy 125.73 74.93) (xy 132.08 74.93)
 		)
 		(stroke
@@ -4676,16 +4684,6 @@
 			(type default)
 		)
 		(uuid "5ed9a54f-01f6-4431-9c3b-bdb69c871542")
-	)
-	(wire
-		(pts
-			(xy 144.78 85.09) (xy 130.81 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "653540a4-6143-472a-98da-06c73d071289")
 	)
 	(wire
 		(pts
@@ -4759,6 +4757,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 30.48) (xy 82.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8235d073-b270-4ab0-bcad-b5e8684ae550")
+	)
+	(wire
+		(pts
 			(xy 101.6 82.55) (xy 101.6 77.47)
 		)
 		(stroke
@@ -4786,6 +4794,16 @@
 			(type default)
 		)
 		(uuid "89a2a171-fe07-4731-9ad8-50f399de0f35")
+	)
+	(wire
+		(pts
+			(xy 64.77 30.48) (xy 72.39 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93736b31-145a-4b39-855f-9493b5943623")
 	)
 	(wire
 		(pts
@@ -4829,6 +4847,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 20.32) (xy 148.59 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9964a766-e73b-4473-8442-6713f5b2ca85")
+	)
+	(wire
+		(pts
 			(xy 105.41 80.01) (xy 73.66 80.01)
 		)
 		(stroke
@@ -4866,6 +4894,26 @@
 			(type default)
 		)
 		(uuid "aec49c28-a2cc-4bd6-b72e-48d448abc67b")
+	)
+	(wire
+		(pts
+			(xy 82.55 30.48) (xy 104.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b013b589-6160-4537-af26-5d36837525a9")
+	)
+	(wire
+		(pts
+			(xy 143.51 36.83) (xy 144.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c1cb11-95f7-4415-823d-de0ca5ade1d9")
 	)
 	(wire
 		(pts
@@ -5019,6 +5067,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 22.86) (xy 104.14 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7db0262-7a4f-49f8-ae59-a529799c85c7")
+	)
+	(wire
+		(pts
 			(xy 104.14 17.78) (xy 132.08 17.78)
 		)
 		(stroke
@@ -5056,6 +5114,26 @@
 			(type default)
 		)
 		(uuid "f93152d2-0bc1-4cdb-bb87-17336d66dbbb")
+	)
+	(wire
+		(pts
+			(xy 88.9 17.78) (xy 88.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8a70ad-50f1-43c2-9ff9-39c2aca46404")
+	)
+	(wire
+		(pts
+			(xy 143.51 20.32) (xy 143.51 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6da5dd-46f1-4fec-9a68-4245688a2d4a")
 	)
 	(label "D+"
 		(at 91.44 82.55 0)
@@ -5211,6 +5289,97 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 22.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bef71d1-e9de-4c22-a8f0-172decffaf1b")
+		(property "Reference" "C7"
+			(at 85.09 15.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 85.09 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 88.9 21.8948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 85.09 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd6d4548-ea39-4e2e-a866-6886c46965d8")
+		)
+		(pin "2"
+			(uuid "5514d12f-b947-4772-97d7-021ab2a105a9")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5413,6 +5582,84 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2258eefe-1246-45e0-9993-834db861ad05")
+		(property "Reference" "#PWR085"
+			(at 72.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e69398fa-f22c-419e-83de-714e38a94e85")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -6180,7 +6427,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 124.46 99.06 0)
+		(at 152.4 17.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6191,7 +6438,7 @@
 		(fields_autoplaced yes)
 		(uuid "388da016-9069-47ab-8784-a88c940573cf")
 		(property "Reference" "TH1"
-			(at 127 98.1074 0)
+			(at 151.4474 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6202,7 +6449,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 127 100.6474 0)
+			(at 153.9874 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6213,7 +6460,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 124.46 97.79 0)
+			(at 151.13 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6224,7 +6471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 97.79 0)
+			(at 151.13 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6235,7 +6482,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 124.46 99.06 0)
+			(at 152.4 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6493,7 @@
 			)
 		)
 		(property "LCSC" "C49247682"
-			(at 124.46 99.06 0)
+			(at 152.4 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6521,6 +6768,177 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b724f1d-103c-414b-ba41-3e3cfa8ddbe6")
+		(property "Reference" "#PWR086"
+			(at 81.28 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d29682af-461a-4279-947c-ed927333891b")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.39 34.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ceb0585-54a7-495e-94e1-41ffbaeb0897")
+		(property "Reference" "C5"
+			(at 76.2 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 76.2 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 71.4248 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 72.39 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fa0c7f1-baec-406d-805b-d2634845b16b")
+		)
+		(pin "2"
+			(uuid "e548ab1c-ab71-4910-8f7a-9225a32393a4")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 88.9 109.22 0)
 		(unit 1)
@@ -6749,6 +7167,99 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65eac68d-9a41-44d9-afa9-7ebeede8cd94")
+		(property "Reference" "C6"
+			(at 86.36 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2,2µF"
+			(at 86.36 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 83.5152 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 82.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9600f7a6-e939-443d-b3e6-26f53b6e29d3")
+		)
+		(pin "2"
+			(uuid "ec323f9d-078b-448f-8b9e-d3f021f88291")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7034,85 +7545,6 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 25.4 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71fd8de0-13a8-4a26-8376-c65634b5e1fc")
-		(property "Reference" "#PWR077"
-			(at 97.79 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 25.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d338e30-5987-4ad0-bb0e-c6c328ec5546")
-		)
-		(instances
-			(project "Leucht-Ohrringe"
-				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7482,7 +7914,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 104.14 22.86 90)
+		(at 88.9 17.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7493,7 +7925,7 @@
 		(fields_autoplaced yes)
 		(uuid "85a1692b-be2b-45cf-815a-7ca423ac72ba")
 		(property "Reference" "#PWR075"
-			(at 107.95 22.86 0)
+			(at 88.9 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7504,7 +7936,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 100.33 22.8599 90)
+			(at 91.44 16.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7515,7 +7947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 22.86 0)
+			(at 88.9 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,7 +7958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 22.86 0)
+			(at 88.9 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7537,7 +7969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 104.14 22.86 0)
+			(at 88.9 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +8227,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 104.14 30.48 90)
+		(at 64.77 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7806,7 +8238,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d2721bf-7ba1-4341-ae43-401cf9187af2")
 		(property "Reference" "#PWR076"
-			(at 107.95 30.48 0)
+			(at 64.77 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,7 +8249,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 100.33 30.4799 90)
+			(at 67.31 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7828,7 +8260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 30.48 0)
+			(at 64.77 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,7 +8271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 30.48 0)
+			(at 64.77 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,7 +8282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 104.14 30.48 0)
+			(at 64.77 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7867,6 +8299,84 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e8aba16-bb07-4dec-91a3-38d439c8f244")
+		(property "Reference" "#PWR084"
+			(at 82.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44e1adaa-65ce-4e03-88d9-bec4c4cb4524")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -7906,7 +8416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.1452 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8140,7 +8650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 102.87 0)
+		(at 156.21 17.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8151,7 +8661,7 @@
 		(fields_autoplaced yes)
 		(uuid "a05c7c0b-8f6d-4aca-b158-ac3e47957522")
 		(property "Reference" "#PWR082"
-			(at 124.46 109.22 0)
+			(at 162.56 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,7 +8672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 107.95 0)
+			(at 161.29 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8172,7 +8682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 102.87 0)
+			(at 156.21 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,7 +8693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 102.87 0)
+			(at 156.21 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8194,7 +8704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 102.87 0)
+			(at 156.21 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8739,6 +9249,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 104.14 25.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b374f443-548a-4c10-9f4a-6cbf735e9458")
+		(property "Reference" "#PWR077"
+			(at 97.79 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a39e1ea-e396-493d-bf78-8babf6c3b597")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 170.18 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -8894,7 +9483,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 91.44 0)
+		(at 144.78 17.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8905,7 +9494,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3881c81-8b68-45f4-8a3f-25dbd8b26274")
 		(property "Reference" "R5"
-			(at 127 90.1699 0)
+			(at 143.5099 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8916,7 +9505,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 127 92.7099 0)
+			(at 146.0499 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8927,7 +9516,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 122.682 91.44 90)
+			(at 144.78 19.558 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8938,7 +9527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 91.44 0)
+			(at 144.78 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8949,7 +9538,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 91.44 0)
+			(at 144.78 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +9549,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 124.46 91.44 0)
+			(at 144.78 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +10446,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 124.46 87.63 0)
+		(at 140.97 17.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9868,7 +10457,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5100ba8-8640-4c57-b973-27944aaf7e1f")
 		(property "Reference" "#PWR083"
-			(at 124.46 91.44 0)
+			(at 144.78 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +10468,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 124.46 82.55 0)
+			(at 135.89 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9889,7 +10478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 87.63 0)
+			(at 140.97 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9900,7 +10489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 87.63 0)
+			(at 140.97 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9911,7 +10500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 124.46 87.63 0)
+			(at 140.97 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10105,7 +10694,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 26.67)
+		(at 21.59 24.13)
 		(size 34.29 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10121,7 +10710,7 @@
 		)
 		(uuid "6e4d91ae-1962-4365-a8ee-454f7b51b106")
 		(property "Sheetname" "LED_Line"
-			(at 46.99 25.9584 0)
+			(at 21.59 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10132,7 +10721,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_Line.kicad_sch"
-			(at 46.99 48.8446 0)
+			(at 21.59 46.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
