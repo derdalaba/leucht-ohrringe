@@ -3,7 +3,7 @@
 	(constraint annular_width (min 0.05mm))
 )
 (rule "Minimum clearance 1"
-	(constraint clearance (min 0.2mm))
+	(constraint clearance (min 0.16mm))
 )
 (rule "Hole to hole distance 1"
 	(constraint hole_to_hole (min 0.45mm))

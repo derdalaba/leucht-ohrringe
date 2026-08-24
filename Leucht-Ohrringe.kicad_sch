@@ -214,6 +214,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Plug_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -4590,12 +4713,6 @@
 		(uuid "0bae7085-108d-419f-9aeb-9896b0a66afb")
 	)
 	(junction
-		(at 113.03 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e462e6a-70c9-4d9a-bd2c-58197ab578b9")
-	)
-	(junction
 		(at 83.82 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4618,6 +4735,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f052021-6b78-4127-ae2e-3ba37c5df77e")
+	)
+	(junction
+		(at 124.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61c3879e-2753-4a39-bf1d-42735b7637e7")
 	)
 	(junction
 		(at 101.6 125.73)
@@ -4644,12 +4767,6 @@
 		(uuid "a3d7fb3e-8092-4367-a7ba-6f93be2a5ddb")
 	)
 	(junction
-		(at 129.54 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c399e00d-7bcb-4979-a53d-0dcc66edc00e")
-	)
-	(junction
 		(at 87.63 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4668,18 +4785,20 @@
 		(uuid "e6146e85-7da7-4742-bc6d-a1e0397d059d")
 	)
 	(junction
-		(at 124.46 38.1)
+		(at 113.03 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f546d026-7fbb-476c-aa45-9f5468243bb7")
+		(uuid "f2c4d587-fb4f-4017-87d4-9c9ef5b56fdd")
+	)
+	(junction
+		(at 125.73 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc9d1a0c-6761-4a2c-a3d7-d48bed3ce8b0")
 	)
 	(no_connect
 		(at 177.8 115.57)
 		(uuid "171ceeb9-a8c5-410d-a919-8b5beb4d832e")
-	)
-	(no_connect
-		(at 125.73 80.01)
-		(uuid "45d1b6bc-f20a-401d-a1e6-2a191cbfd93e")
 	)
 	(no_connect
 		(at 104.14 27.94)
@@ -4711,33 +4830,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 77.47) (xy 105.41 77.47)
+			(xy 101.6 77.47) (xy 102.87 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05fd8820-80ef-4d31-bbfb-d8c067c1c55a")
-	)
-	(wire
-		(pts
-			(xy 139.7 38.1) (xy 124.46 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09113796-a16e-4364-b085-bdff1b2e0c35")
-	)
-	(wire
-		(pts
-			(xy 129.54 40.64) (xy 134.62 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3b0b9c-22ce-472b-8647-79d19ac1c3e3")
 	)
 	(wire
 		(pts
@@ -4751,33 +4850,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 138.43 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d086f18-11d0-4f08-b4a0-a6bf64df586e")
-	)
-	(wire
-		(pts
-			(xy 135.89 20.32) (xy 135.89 66.04)
+			(xy 135.89 20.32) (xy 135.89 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e7aa411-1aea-486b-9057-b6974b29fd3c")
-	)
-	(wire
-		(pts
-			(xy 105.41 72.39) (xy 105.41 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef51d7e-cdd8-4e50-a561-22286e4ce929")
 	)
 	(wire
 		(pts
@@ -4811,13 +4890,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 113.03 67.31)
+			(xy 113.03 64.77) (xy 113.03 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bbe84f1-eada-4d38-bd43-2ee94e7dae57")
+		(uuid "25fbf6df-820d-4adb-ac65-def3e27c9b55")
 	)
 	(wire
 		(pts
@@ -4831,16 +4910,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 143.51 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3a6691-859e-43e3-bf6c-0f15dc163322")
-	)
-	(wire
-		(pts
 			(xy 195.58 57.15) (xy 195.58 54.61)
 		)
 		(stroke
@@ -4848,6 +4917,16 @@
 			(type default)
 		)
 		(uuid "3473d501-2b07-41db-a708-41fa015c09c0")
+	)
+	(wire
+		(pts
+			(xy 113.03 62.23) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34bc2ecb-a25c-43c1-9531-0db3d67af184")
 	)
 	(wire
 		(pts
@@ -4871,6 +4950,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c1eac5-7d7c-4768-9308-7795b466ec4c")
+	)
+	(wire
+		(pts
 			(xy 144.78 64.77) (xy 138.43 64.77)
 		)
 		(stroke
@@ -4881,7 +4970,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 30.48) (xy 140.97 74.93)
+			(xy 140.97 38.1) (xy 140.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4891,23 +4980,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 137.16 77.47)
+			(xy 130.81 53.34) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "531daff9-4229-4548-bab7-46bee4032cdc")
-	)
-	(wire
-		(pts
-			(xy 139.7 30.48) (xy 139.7 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5329918b-3fe7-4d4e-a74e-91080e08521d")
 	)
 	(wire
 		(pts
@@ -4921,33 +5000,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 74.93) (xy 132.08 74.93)
+			(xy 101.6 53.34) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ed9a54f-01f6-4431-9c3b-bdb69c871542")
+		(uuid "546bf2d7-e624-4068-aa4d-127c0cfe523d")
 	)
 	(wire
 		(pts
-			(xy 113.03 67.31) (xy 115.57 67.31)
+			(xy 123.19 74.93) (xy 127 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65894155-ff60-4798-a289-130dbaefc733")
-	)
-	(wire
-		(pts
-			(xy 134.62 40.64) (xy 134.62 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68831433-17a2-4048-a7d3-f920cc75e7bc")
+		(uuid "64e08134-7588-4bda-8283-779758433a72")
 	)
 	(wire
 		(pts
@@ -4981,7 +5050,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 144.78 95.25)
+			(xy 129.54 95.25) (xy 144.78 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5001,13 +5070,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 144.78 82.55)
+			(xy 193.04 62.23) (xy 203.2 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "761547a5-167d-417d-8602-648a9457de3c")
+		(uuid "738049d3-06ea-49b4-8c92-c92631b10cfd")
 	)
 	(wire
 		(pts
@@ -5031,23 +5100,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 74.93) (xy 132.08 90.17)
+			(xy 127 74.93) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88c8b5c8-ccd9-4c3f-88a0-62f7a6bc5283")
-	)
-	(wire
-		(pts
-			(xy 105.41 67.31) (xy 113.03 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a2a171-fe07-4731-9ad8-50f399de0f35")
+		(uuid "8c4dabc8-a354-4f6d-a10d-fadd14ad31b5")
 	)
 	(wire
 		(pts
@@ -5091,7 +5150,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 72.39) (xy 134.62 95.25)
+			(xy 129.54 72.39) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5101,7 +5160,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 77.47) (xy 144.78 77.47)
+			(xy 130.81 77.47) (xy 144.78 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5121,23 +5180,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 80.01) (xy 73.66 80.01)
+			(xy 124.46 53.34) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35b5dae-28f9-44e5-8494-4808a3882ed8")
+	)
+	(wire
+		(pts
+			(xy 102.87 80.01) (xy 73.66 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a43ede8e-cf9a-4b7b-bdc3-3589a5f3dd3a")
-	)
-	(wire
-		(pts
-			(xy 139.7 30.48) (xy 140.97 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c03103-7013-4e1a-9cde-45e2b3bec804")
 	)
 	(wire
 		(pts
@@ -5201,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 143.51 66.04)
+			(xy 135.89 82.55) (xy 144.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5211,23 +5270,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 69.85) (xy 138.43 69.85)
+			(xy 132.08 80.01) (xy 144.78 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc66d9fc-d1b0-405c-af02-796b8d47f5bd")
-	)
-	(wire
-		(pts
-			(xy 193.04 62.23) (xy 203.2 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdec03fd-dd93-4299-8af4-a80f56acf83e")
 	)
 	(wire
 		(pts
@@ -5241,7 +5290,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 17.78) (xy 132.08 69.85)
+			(xy 101.6 40.64) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c1096a-803e-43b1-84a9-7825a260e703")
+	)
+	(wire
+		(pts
+			(xy 132.08 17.78) (xy 132.08 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5258,6 +5317,16 @@
 			(type default)
 		)
 		(uuid "c79e7721-cb03-4fcb-b183-8e2f69055887")
+	)
+	(wire
+		(pts
+			(xy 125.73 38.1) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4a94c4-6694-4bdd-9daf-373c2af12f44")
 	)
 	(wire
 		(pts
@@ -5281,7 +5350,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 90.17) (xy 144.78 90.17)
+			(xy 127 90.17) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5291,33 +5360,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 124.46 38.1)
+			(xy 104.14 38.1) (xy 125.73 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1fb9f82-7e81-40c0-8cab-d01bee470d17")
-	)
-	(wire
-		(pts
-			(xy 104.14 40.64) (xy 129.54 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53b7b29-a480-484f-94ea-03386d4f9875")
-	)
-	(wire
-		(pts
-			(xy 134.62 71.12) (xy 137.16 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7836f61-7f3b-4150-acdd-480ee8b241c7")
 	)
 	(wire
 		(pts
@@ -5411,17 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 80.01) (xy 144.78 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b100ee-6fc8-4678-9e5e-701a1040ddd3")
-	)
-	(wire
-		(pts
-			(xy 125.73 72.39) (xy 134.62 72.39)
+			(xy 123.19 72.39) (xy 129.54 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5468,6 +5507,54 @@
 			(justify left bottom)
 		)
 		(uuid "9e18aeb7-6f3a-4497-ba53-0e86acabd9a5")
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 123.19 87.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e950d5a-78a5-4f5b-9f99-433193c8a1f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 96.3603 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 199.39 62.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c04a84f-fbe6-4676-b10a-c10f9fb792fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 70.9603 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "LED_IN"
 		(shape input)
@@ -6137,6 +6224,84 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28f230c7-5754-4c34-8025-813863aaef65")
+		(property "Reference" "#PWR072"
+			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f5d0301-0a71-488b-a5c6-2f363d21bd0b")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6826,6 +6991,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38889e01-a5fa-4aee-9674-41c0caf49a6c")
+		(property "Reference" "TP1"
+			(at 141.478 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:TestPoint_0,5mm"
+			(at 144.78 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5de54402-30a4-4204-b8e0-08c9a137cfd1")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 152.4 17.78 90)
 		(unit 1)
@@ -7006,6 +7248,97 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "424f2df2-fdb7-4371-b56e-986a4637a8f5")
+		(property "Reference" "C12"
+			(at 109.22 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 109.22 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 105.41 65.7352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 109.22 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4a3211d-f1b3-492b-a9b0-6d9baaaed9a2")
+		)
+		(pin "2"
+			(uuid "ada26e6d-4f88-4666-98a3-e1d40e9db2e1")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7772,7 +8105,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 124.46 45.72 180)
+		(at 125.73 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7783,7 +8116,7 @@
 		(fields_autoplaced yes)
 		(uuid "6062206e-307a-47bf-8802-8277e8b70b5a")
 		(property "Reference" "#PWR078"
-			(at 124.46 41.91 0)
+			(at 125.73 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +8127,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 124.46 50.8 0)
+			(at 125.73 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7804,7 +8137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 45.72 0)
+			(at 125.73 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7815,7 +8148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 45.72 0)
+			(at 125.73 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7826,7 +8159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 124.46 45.72 0)
+			(at 125.73 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,8 +8675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 85.09 0)
+		(lib_id "Connector:TestPoint")
+		(at 144.78 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8352,10 +8685,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e9c941d-c278-4d60-a61f-a48ad3bc59a9")
-		(property "Reference" "#PWR072"
-			(at 115.57 91.44 0)
-			(hide yes)
+		(uuid "7bf6be08-0cd4-440e-9d5d-5bf2fbf9c536")
+		(property "Reference" "TP3"
+			(at 141.478 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8364,8 +8696,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 115.57 90.17 0)
+		(property "Value" "TestPoint"
+			(at 141.478 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8374,8 +8706,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.57 85.09 0)
+		(property "Footprint" "Inductor_SMD:TestPoint_0,5mm"
+			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8386,7 +8718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 85.09 0)
+			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8396,8 +8728,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 85.09 0)
+		(property "Description" "test point"
+			(at 144.78 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8408,12 +8740,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "62590dd6-e7ff-4f88-921e-3dc12bb873fd")
+			(uuid "30e91d67-9c8f-4b92-a978-291a3681a6f4")
 		)
 		(instances
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
-					(reference "#PWR072")
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80969729-40bb-462e-846c-49b2d1de282f")
+		(property "Reference" "#PWR087"
+			(at 95.25 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7581d27e-dd95-47e0-99b1-84f3082b1d79")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -8505,6 +8915,97 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e30234-91d7-4517-880e-b01d09483ad8")
+		(property "Reference" "C11"
+			(at 99.06 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 99.06 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 95.25 73.3552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61b49e84-46b8-4f24-b28a-3ced868b133c")
+		)
+		(pin "2"
+			(uuid "ab306ac0-6b8f-44af-990c-87b1194b18bb")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8669,7 +9170,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 129.54 48.26 180)
+		(at 124.46 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8680,7 +9181,7 @@
 		(fields_autoplaced yes)
 		(uuid "897218c0-5a90-4bb8-800b-bb98c39632ac")
 		(property "Reference" "#PWR079"
-			(at 129.54 44.45 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8691,7 +9192,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 129.54 53.34 0)
+			(at 124.46 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8701,7 +9202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 48.26 0)
+			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8712,7 +9213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 48.26 0)
+			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8723,7 +9224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 129.54 48.26 0)
+			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8975,6 +9476,121 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 123.19 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fcfeb8b-7c70-4e8e-85d6-64477f3ade08")
+		(property "Reference" "D29"
+			(at 125.73 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B0520"
+			(at 125.73 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2910120"
+			(at 123.19 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f6fe3dc-26f3-4435-a280-77879e05d230")
+		)
+		(pin "2"
+			(uuid "2a5e02bc-161b-489e-9dbd-20ee582019bb")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -9424,6 +10040,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7f61255-72ed-4f0b-b232-49f7193d6df1")
+		(property "Reference" "TP4"
+			(at 141.478 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:TestPoint_0,5mm"
+			(at 144.78 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "537c6984-cdd9-4a30-8feb-91b08d1cd4e4")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 77.47 114.3 0)
 		(unit 1)
@@ -9503,7 +10196,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 44.45 0)
+		(at 124.46 49.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9514,7 +10207,7 @@
 		(fields_autoplaced yes)
 		(uuid "ace946b1-5cd5-4ac6-8866-1a0673863d4c")
 		(property "Reference" "R4"
-			(at 132.08 43.1799 0)
+			(at 121.92 50.8001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9525,7 +10218,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 132.08 45.7199 0)
+			(at 121.92 48.2601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9536,7 +10229,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 127.762 44.45 90)
+			(at 126.238 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9547,7 +10240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 44.45 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9558,7 +10251,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 44.45 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9569,7 +10262,7 @@
 			)
 		)
 		(property "LCSC" "C49247682"
-			(at 129.54 44.45 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9589,6 +10282,84 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afbd27d9-f4b6-437a-b0fe-dbb0f6c2a440")
+		(property "Reference" "#PWR088"
+			(at 105.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a55c47c-f29f-4c03-b11a-772344567901")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -9745,6 +10516,83 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfe50a4d-6056-4a30-8e35-74b3e4b57744")
+		(property "Reference" "TP2"
+			(at 141.478 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:TestPoint_0,5mm"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "963e49c1-ebf8-4f66-bbce-f88515d01046")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10223,7 +11071,7 @@
 	)
 	(symbol
 		(lib_id "Interface_USB:CH340N")
-		(at 115.57 74.93 0)
+		(at 113.03 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10234,7 +11082,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8482706-b8bc-4629-b972-1b5ef99af641")
 		(property "Reference" "U4"
-			(at 117.7133 64.77 0)
+			(at 115.1733 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10245,7 +11093,7 @@
 			)
 		)
 		(property "Value" "CH340N"
-			(at 117.7133 67.31 0)
+			(at 115.1733 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10256,7 +11104,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 111.76 55.88 0)
+			(at 109.22 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10267,7 +11115,7 @@
 			)
 		)
 		(property "Datasheet" "https://aitendo3.sakura.ne.jp/aitendo_data/product_img/ic/inteface/CH340N/ch340n.pdf"
-			(at 113.03 69.85 0)
+			(at 110.49 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,7 +11126,7 @@
 			)
 		)
 		(property "Description" "USB serial converter, 2Mbps, UART, JEITA SOIC-8 (SOP-8)"
-			(at 115.57 74.93 0)
+			(at 113.03 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +11137,7 @@
 			)
 		)
 		(property "LCSC" "C2977777"
-			(at 115.57 74.93 0)
+			(at 113.03 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10714,7 +11562,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 113.03 63.5 0)
+		(at 113.03 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10725,7 +11573,7 @@
 		(fields_autoplaced yes)
 		(uuid "e155f446-317a-48e0-a2ed-44ba7af3e156")
 		(property "Reference" "#PWR073"
-			(at 113.03 67.31 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,7 +11584,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 113.03 58.42 0)
+			(at 113.03 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10746,7 +11594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 63.5 0)
+			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10757,7 +11605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 63.5 0)
+			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10768,7 +11616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 113.03 63.5 0)
+			(at 113.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10948,7 +11796,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 41.91 0)
+		(at 125.73 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10959,7 +11807,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec1c22c3-64d3-4053-9a75-deca2a967589")
 		(property "Reference" "R3"
-			(at 127 40.6399 0)
+			(at 123.19 35.5601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10970,7 +11818,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 127 43.1799 0)
+			(at 123.19 33.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10981,7 +11829,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 122.682 41.91 90)
+			(at 127.508 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10992,7 +11840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 41.91 0)
+			(at 125.73 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11003,7 +11851,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 41.91 0)
+			(at 125.73 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11014,7 +11862,7 @@
 			)
 		)
 		(property "LCSC" "C49247682"
-			(at 124.46 41.91 0)
+			(at 125.73 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
