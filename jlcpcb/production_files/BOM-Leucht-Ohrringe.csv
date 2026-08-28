@@ -48,5 +48,11 @@ WS2812B-2020,D28,LED_WS2812B-2020_PLCC4_2.0x2.0mm,,1
 WS2812B-2020,D27,LED_WS2812B-2020_PLCC4_2.0x2.0mm,,1
 WS2812B-2020,D12,LED_WS2812B-2020_PLCC4_2.0x2.0mm,,1
 WS2812B-2020,D9,LED_WS2812B-2020_PLCC4_2.0x2.0mm,,1
-Battery,BT1,JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal,,1
+Battery,BT1,JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,,1
+TestPoint,TP2,"TestPoint_0,5mm",,1
+TestPoint,TP3,"TestPoint_0,5mm",,1
+TestPoint,TP4,"TestPoint_0,5mm",,1
+TestPoint,TP1,"TestPoint_0,5mm",,1
 SW_SPDT,SW1,K3-1236S,,1
+TestPoint,TP6,"TestPoint_0,5mm",,1
+TestPoint,TP5,"TestPoint_0,5mm",,1
