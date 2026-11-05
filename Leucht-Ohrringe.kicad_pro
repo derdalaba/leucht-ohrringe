@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -77,6 +77,10 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "items_not_allowed|166371071|59957791|83a09330-7c89-4799-828b-5c8995f54173|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
         [
           "lib_footprint_mismatch|156412822|61972500|7b3dcaec-4d6e-4b67-a874-5e9022ac29cb|00000000-0000-0000-0000-000000000000",
           ""
@@ -267,6 +271,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -278,6 +283,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -289,6 +295,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -589,6 +596,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -636,8 +644,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -781,7 +789,7 @@
         "uuid": "4432a709-2b65-441b-8d8c-961e244b0ba3"
       }
     ],
-    "used_designators": "BT1-2,#PWR1-89,D1-29,U1-5,P1,J1,R1-5,C1-12,L1-2,AE1,TH1,SW1,TP1-6",
+    "used_designators": "#PWR1-90,AE1,BT1-2,C1-12,D1-29,J1-2,L1-2,LCSC1,P1,R1-6,SW1,TH1,TP1-6,U1-5",
     "variants": []
   },
   "sheets": [

@@ -337,7 +337,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -346,26 +346,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -390,7 +388,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -412,7 +410,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -423,7 +421,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -480,6 +478,17 @@
 					)
 				)
 				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
 					(stroke
@@ -490,8 +499,41 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -692,7 +734,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -732,7 +774,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -776,6 +818,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -862,7 +922,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -870,6 +930,60 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4769,16 +4883,22 @@
 		(uuid "754689fd-7a60-4c40-be97-d2c4550122f6")
 	)
 	(junction
-		(at 73.66 87.63)
+		(at 64.77 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7567e5ac-f7c9-487c-bf6b-6505c79c4d12")
+		(uuid "7cd8f40c-e229-4ee0-affc-da8ee87e7c5b")
 	)
 	(junction
 		(at 72.39 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92090d93-c096-4ec9-ad6d-326d2f98fcea")
+	)
+	(junction
+		(at 73.66 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97d2f4da-aab6-4b5a-bb6e-cd9cb10fe06d")
 	)
 	(junction
 		(at 198.12 90.17)
@@ -4811,10 +4931,20 @@
 		(uuid "f2c4d587-fb4f-4017-87d4-9c9ef5b56fdd")
 	)
 	(junction
+		(at 64.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f989fd54-f4a1-4ad7-b1f8-47f6789153ed")
+	)
+	(junction
 		(at 125.73 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc9d1a0c-6761-4a2c-a3d7-d48bed3ce8b0")
+	)
+	(no_connect
+		(at 64.77 97.79)
+		(uuid "0805a947-196c-49fa-8ac0-eb799bdc6635")
 	)
 	(no_connect
 		(at 177.8 115.57)
@@ -4825,8 +4955,8 @@
 		(uuid "6f16f6f6-3e2d-4f88-abb3-3a6cfafa7297")
 	)
 	(no_connect
-		(at 71.12 77.47)
-		(uuid "f71e737b-0b77-4e2c-a377-ef36301b6f04")
+		(at 64.77 100.33)
+		(uuid "72cc1483-4a18-40b6-b416-f4f4a7e3787e")
 	)
 	(wire
 		(pts
@@ -4900,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 87.63) (xy 73.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fd4f45-f09c-447f-9305-a430a8ea5ea1")
+	)
+	(wire
+		(pts
 			(xy 167.64 116.84) (xy 167.64 115.57)
 		)
 		(stroke
@@ -4950,13 +5090,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 83.82 69.85)
+			(xy 64.77 82.55) (xy 64.77 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e05b732-2bef-45ec-a9c9-cf68752d4ac6")
+		(uuid "3ab12255-d22e-4623-96f7-3f38b06a69c6")
 	)
 	(wire
 		(pts
@@ -5030,6 +5170,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 69.85) (xy 83.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e1cb3e-aeaa-48f1-8807-04712c62942c")
+	)
+	(wire
+		(pts
 			(xy 123.19 74.93) (xy 127 74.93)
 		)
 		(stroke
@@ -5057,16 +5207,6 @@
 			(type default)
 		)
 		(uuid "70134abb-d4e0-46f1-8d3d-b3ccdde77b27")
-	)
-	(wire
-		(pts
-			(xy 71.12 87.63) (xy 73.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7112847c-d40c-4c5a-892a-4faba06193b9")
 	)
 	(wire
 		(pts
@@ -5100,6 +5240,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 77.47) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a9fc3d-92cd-4d87-9589-91ff83a7376f")
+	)
+	(wire
+		(pts
 			(xy 72.39 30.48) (xy 82.55 30.48)
 		)
 		(stroke
@@ -5110,13 +5260,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 101.6 77.47)
+			(xy 64.77 82.55) (xy 87.63 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8592ede0-7a6a-4678-b365-2a18612a8709")
+		(uuid "84701a78-f561-449a-b5a6-82e725340f5c")
 	)
 	(wire
 		(pts
@@ -5207,16 +5357,6 @@
 			(type default)
 		)
 		(uuid "a35b5dae-28f9-44e5-8494-4808a3882ed8")
-	)
-	(wire
-		(pts
-			(xy 102.87 80.01) (xy 73.66 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a43ede8e-cf9a-4b7b-bdc3-3589a5f3dd3a")
 	)
 	(wire
 		(pts
@@ -5380,6 +5520,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 74.93) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dc97f0-c5bd-413c-ab7e-f3028dfa7486")
+	)
+	(wire
+		(pts
 			(xy 143.51 34.29) (xy 144.78 34.29)
 		)
 		(stroke
@@ -5417,6 +5567,16 @@
 			(type default)
 		)
 		(uuid "dd634b4e-f640-4982-a0ce-380f37977ee5")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb3b9a1-403b-4719-99cf-0b2ba4d2a738")
 	)
 	(wire
 		(pts
@@ -5470,13 +5630,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 82.55) (xy 87.63 82.55)
+			(xy 64.77 87.63) (xy 64.77 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2516f48-b4c2-4d67-ad03-d87f67d78574")
+		(uuid "ef0e22e1-836a-4d28-9131-c945da9a88e8")
 	)
 	(wire
 		(pts
@@ -5508,7 +5668,7 @@
 		)
 		(uuid "fb8a70ad-50f1-43c2-9ff9-39c2aca46404")
 	)
-	(label "D+"
+	(label "D-"
 		(at 91.44 82.55 0)
 		(effects
 			(font
@@ -5518,7 +5678,7 @@
 		)
 		(uuid "33a8df5f-cbf8-4833-8eb5-088d966ec466")
 	)
-	(label "D-"
+	(label "D+"
 		(at 91.44 80.01 0)
 		(effects
 			(font
@@ -5879,130 +6039,6 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 55.88 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ae8a743-306a-4420-8fed-aee936f5a3e8")
-		(property "Reference" "P1"
-			(at 55.88 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 55.88 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 55.88 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C668623"
-			(at 55.88 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B5"
-			(uuid "a8623ae9-8cb2-4039-b71a-3327fca31379")
-		)
-		(pin "A9"
-			(uuid "24a1a70f-1bb8-4f8e-b2f9-866b057c8c0b")
-		)
-		(pin "A4"
-			(uuid "fab297c8-80c8-4392-9588-921d6057ed8f")
-		)
-		(pin "A7"
-			(uuid "658aabee-1db7-47f3-b4fa-725c789768d9")
-		)
-		(pin "A12"
-			(uuid "74d04ec9-ea6a-4d58-aebd-d7144b9811fb")
-		)
-		(pin "B12"
-			(uuid "1582106e-573f-4a6b-a9ca-14507fd3d549")
-		)
-		(pin "B4"
-			(uuid "0abd460e-d335-4da1-b995-ac7daee37c01")
-		)
-		(pin "B1"
-			(uuid "336e0f4f-dcb4-4053-b42c-7ef6c458633d")
-		)
-		(pin "A5"
-			(uuid "e0374d1d-ad42-4c8f-a02a-821295e6aa72")
-		)
-		(pin "A1"
-			(uuid "27d7edb4-3248-424e-b5ea-ffd278f3fca8")
-		)
-		(pin "A6"
-			(uuid "fb65c7ff-60f7-45f0-b2b4-78a936b71722")
-		)
-		(pin "SH"
-			(uuid "a8512020-01f2-4c4a-9632-13a05a51cc4a")
-		)
-		(pin "B9"
-			(uuid "ae519dee-9c2c-4d50-83be-d356eaae0efa")
-		)
-		(instances
-			(project "Leucht-Ohrringe"
-				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
-					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -7368,84 +7404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fe7226c-b391-447d-93e8-d0f06a6e73f0")
-		(property "Reference" "#PWR09"
-			(at 48.26 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "249c3e48-a7f8-4ee8-ab8f-bd918709424c")
-		)
-		(instances
-			(project "Leucht-Ohrringe"
-				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 111.76 0)
 		(unit 1)
@@ -7533,6 +7491,143 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 49.53 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5117a285-9535-43e4-9002-b245a1bb462c")
+		(property "Reference" "LCSC1"
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 49.53 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 53.34 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 49.53 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" " C668623"
+			(at 49.53 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A6"
+			(uuid "8a5da82b-c7bb-4c9d-a2ac-da120a3aab5c")
+		)
+		(pin "A1"
+			(uuid "017d7bde-be6a-44cf-87dd-6cb663f3120a")
+		)
+		(pin "A7"
+			(uuid "a5bb2438-2511-437a-8b18-127f4c162717")
+		)
+		(pin "B1"
+			(uuid "87099223-67c2-4bed-b942-8d6bab830e8c")
+		)
+		(pin "A5"
+			(uuid "492266c6-8e46-4dde-8e94-2d6cf678eff5")
+		)
+		(pin "A12"
+			(uuid "8520e10d-d5e6-44e0-80bd-9f5466e56b59")
+		)
+		(pin "A4"
+			(uuid "8f05978d-3f02-472b-bfb0-8c55b0963f88")
+		)
+		(pin "A8"
+			(uuid "3ead6060-91c6-454e-88d1-f8c674612754")
+		)
+		(pin "A9"
+			(uuid "e2e3f46e-37e4-4460-916e-be305c109b30")
+		)
+		(pin "B8"
+			(uuid "24c83c6e-9ac7-4483-98ee-471022e4fd60")
+		)
+		(pin "B4"
+			(uuid "f3451972-13ea-4c50-a331-a0e897992cd5")
+		)
+		(pin "B6"
+			(uuid "a01e7975-68f9-4772-8458-fd531a727db0")
+		)
+		(pin "B9"
+			(uuid "766847ad-b541-4a74-8fa4-5b24efae2a1a")
+		)
+		(pin "B5"
+			(uuid "c569aab8-3f42-46ac-9f6a-8bd0b47a9185")
+		)
+		(pin "B7"
+			(uuid "b08570aa-cb5f-49bd-9aca-6081f90ff1b1")
+		)
+		(pin "B12"
+			(uuid "7f6c7766-1a8e-4064-8882-296742e65192")
+		)
+		(pin "SH"
+			(uuid "2edf0c3c-0685-4c4e-bc67-2ef90d9dde1d")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "LCSC1")
 					(unit 1)
 				)
 			)
@@ -7702,6 +7797,84 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1e749b-51af-4278-966c-ac92ff8e877a")
+		(property "Reference" "#PWR08"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecf84357-2f7d-4c60-ab42-f237d0215514")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10466,6 +10639,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 68.58 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aecbafbb-3732-4f63-a69a-db26f3664646")
+		(property "Reference" "R6"
+			(at 68.58 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 68.58 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.58 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907044"
+			(at 68.58 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a6f7563-65c2-4185-b452-dd799b54874b")
+		)
+		(pin "1"
+			(uuid "45659539-e93d-40d1-bfb3-6434fc04b465")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af6d1ef2-30a1-4645-8131-4c64c586eebc")
+		(property "Reference" "#PWR090"
+			(at 49.53 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2dc43e1-b0fc-4048-ab0c-c698716a5fa7")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 64.77 0)
 		(unit 1)
@@ -11474,84 +11816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cce492fa-380b-40a6-9d40-2fcfca146131")
-		(property "Reference" "#PWR08"
-			(at 55.88 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38ea2d73-33cc-4458-b1de-bd8c4607cbe3")
-		)
-		(instances
-			(project "Leucht-Ohrringe"
-				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 144.78 39.37 90)
 		(unit 1)
@@ -11623,6 +11887,84 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dae0c0a6-0d22-4f60-a933-e7f56366ed50")
+		(property "Reference" "#PWR011"
+			(at 41.91 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da692ec7-8ae1-4614-9b3d-191acddf093c")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
