@@ -4889,6 +4889,12 @@
 		(uuid "7cd8f40c-e229-4ee0-affc-da8ee87e7c5b")
 	)
 	(junction
+		(at 87.63 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fd96bee-e69a-46b1-8667-cae52b03b590")
+	)
+	(junction
 		(at 72.39 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4905,12 +4911,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d7fb3e-8092-4367-a7ba-6f93be2a5ddb")
-	)
-	(junction
-		(at 87.63 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd027e7b-8eee-49e5-a70c-30e4933ec28a")
 	)
 	(junction
 		(at 82.55 30.48)
@@ -4967,16 +4967,6 @@
 			(type default)
 		)
 		(uuid "02adfdc0-122c-4e3f-b038-b9a166c9e22c")
-	)
-	(wire
-		(pts
-			(xy 87.63 82.55) (xy 101.6 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d3f5de-2e0f-4a52-a3f0-8327717e1090")
 	)
 	(wire
 		(pts
@@ -5247,6 +5237,16 @@
 			(type default)
 		)
 		(uuid "73a9fc3d-92cd-4d87-9589-91ff83a7376f")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772df02f-4bb2-43d1-9ed1-6195ed5e0d9f")
 	)
 	(wire
 		(pts
@@ -8797,121 +8797,6 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 87.63 86.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71e70dff-1f4b-436f-af8c-65ce1660e88c")
-		(property "Reference" "D3"
-			(at 90.17 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H4V5HD3UA"
-			(at 90.17 87.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 87.63 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 87.63 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 87.63 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 87.63 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C54334010"
-			(at 87.63 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "271599a3-63b0-42e4-ae6e-a565c2b9e553")
-		)
-		(pin "2"
-			(uuid "4be49ded-e3e4-4d68-b392-3c373a2ab960")
-		)
-		(instances
-			(project "Leucht-Ohrringe"
-				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
 		(at 73.66 91.44 270)
 		(unit 1)
 		(body_style 1)
@@ -8933,7 +8818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H4V5HD3UA"
+		(property "Value" "ESD5311N-2/TR"
 			(at 76.2 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8944,7 +8829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8999,7 +8884,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C54334010"
+		(property "LCSC" "C153721"
 			(at 73.66 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9827,6 +9712,121 @@
 			(project "Leucht-Ohrringe"
 				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 87.63 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eaad588-e298-47e2-9326-df8f1b87495b")
+		(property "Reference" "D30"
+			(at 90.17 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD5311N-2/TR"
+			(at 90.17 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C153721"
+			(at 87.63 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce9f77b2-a9c4-4e93-bbb4-be6a60c3a04d")
+		)
+		(pin "2"
+			(uuid "c184d281-b85b-4b06-a575-0ae54cfcd854")
+		)
+		(instances
+			(project "Leucht-Ohrringe"
+				(path "/4432a709-2b65-441b-8d8c-961e244b0ba3"
+					(reference "D30")
 					(unit 1)
 				)
 			)

@@ -78,6 +78,22 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|163205239|87914618|9c65fe5b-9d4c-49bf-99d3-e021ff76b449|6904e6f5-e17d-4e3c-acbe-4fd55a79cbf4",
+          ""
+        ],
+        [
+          "hole_clearance|163205239|87914618|f7845dd4-d1a1-4520-a4f4-f4eca27298c6|6904e6f5-e17d-4e3c-acbe-4fd55a79cbf4",
+          ""
+        ],
+        [
+          "hole_clearance|166527537|82798728|969f4fed-bb19-4182-8b1a-ab7bc3cfc005|1af85c7e-b3ff-4fab-8a1f-9617dc98be61",
+          ""
+        ],
+        [
+          "hole_clearance|166527537|82798728|b14d9125-4abd-427b-842b-21f75c96dff5|1af85c7e-b3ff-4fab-8a1f-9617dc98be61",
+          ""
+        ],
+        [
           "items_not_allowed|166371071|59957791|83a09330-7c89-4799-828b-5c8995f54173|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -167,6 +183,14 @@
         ],
         [
           "lib_footprint_mismatch|173450000|82942500|3f885249-0db6-49e4-ae61-e31c11d5505c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|162729368|87784438|8b758bc1-dbb6-45ad-a8f0-bb96c5fd8a3f|9c65fe5b-9d4c-49bf-99d3-e021ff76b449|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|162729368|87784438|8b758bc1-dbb6-45ad-a8f0-bb96c5fd8a3f|f7845dd4-d1a1-4520-a4f4-f4eca27298c6|B.Cu",
           ""
         ]
       ],
@@ -654,7 +678,7 @@
       "netlist": "",
       "plot": "gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Leucht-Ohrringe.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -789,7 +813,7 @@
         "uuid": "4432a709-2b65-441b-8d8c-961e244b0ba3"
       }
     ],
-    "used_designators": "#PWR1-90,AE1,BT1-2,C1-12,D1-29,J1-2,L1-2,LCSC1,P1,R1-6,SW1,TH1,TP1-6,U1-5",
+    "used_designators": "#PWR1-90,AE1,BT1-2,C1-12,D1-30,J1-2,L1-2,LCSC1,P1,R1-6,SW1,TH1,TP1-6,U1-5",
     "variants": []
   },
   "sheets": [
